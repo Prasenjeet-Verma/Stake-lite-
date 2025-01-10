@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    /* 4 buttons per row */
+    gap: 10px;
+    /* Space between buttons */
+    text-align: center;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000;
+    background-color: lightblue;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hideImg {
+    height: 96px;
+    width: 97px;
+    background-color: lightgray;
+    border: 2px solid #080808;
+    position: relative;
+    cursor: pointer;
+    display: none;
+}
+
+.loseHide {
+    display: none;
+}
+
+.startNewGame {
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 1px solid whitesmoke;
+}
+
+.hiddenBtn {
+    display: none;
+}
+
+.showImg {
+    height: 96px;
+    width: 97px;
+    background-color: lightgray;
+    border: 2px solid #050505;
+    position: relative;
+    cursor: pointer;
+}
+
+.showHeading {
+    font-size: 24px;
+    color: red;
+}
+
+.imageButton {
+    height: 100px;
+    width: 100px;
+    background-color: lightgray;
+    border: 1px solid #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+#styledHead {
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid brown;
+}
+
+.restart {
+    height: 25px;
+    width: 150px;
+    text-align: center;
+    background-color: red;
+    color: black;
+    border: 1px solid whitesmoke;
+}
